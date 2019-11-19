@@ -1,0 +1,45 @@
+
+<!-- 前者是组件的props，后者是页面的data -->
+<reserve_swiper swiper_image="{{swiper_image}}">
+</reserve_swiper>
+<view class="weui-cell weui-cell_select">
+    <view class="weui-cell__hd weui-cell__hd_in-select-after">
+        <view class="weui-label">地区</view>
+    </view>
+    <view class="weui-cell__bd">
+        <picker bindchange="bindRegionChange" mode="region" value="{{region}}">
+            <view class="weui-select">
+            {{region}}
+            </view>
+        </picker>
+    </view>
+</view>
+<view class="weui-cell weui-cell_select">
+    <view class="weui-cell__hd weui-cell__hd_in-select-after">
+        <view class="weui-label">入住</view>
+    </view>
+    <view class="weui-cell__bd">
+        <picker mode="date" value="{{CheckIndate}}" start="2015-09-01" end="2020-09-01" bindchange="bindCheckInDateChange">
+            <view class="weui-select">
+            {{CheckInDate}}
+            </view>
+        </picker>
+    </view>
+</view>
+<view class="weui-cell weui-cell_select">
+    <view class="weui-cell__hd weui-cell__hd_in-select-after">
+        <view class="weui-label">离店</view>
+    </view>
+    <view class="weui-cell__bd">
+        <picker mode="date" value="{{CheckOutdate}}" start="2015-09-01" end="2020-09-01" bindchange="bindCheckOutDateChange">
+            <view class="weui-select">
+            {{CheckOutDate}}
+            </view>
+        </picker>
+    </view>
+</view>
+
+<view class="check_in_time">
+共{{checkInTime}}晚</view>
+    <button class="weui-btn" type="primary" form-type="submit">确定</button>
+

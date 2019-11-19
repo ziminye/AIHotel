@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "reserve_swiper": "/components/common/swiper/swiper"
+  }
+}

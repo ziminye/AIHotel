@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/reserve/reserve",
+    "pages/guide/guide",
+    "pages/service/service",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AIHotel",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+      "selectedColor": "#D4237A",
+      "color":"#000",
+    "list":[
+      {
+        "pagePath": "pages/reserve/reserve",
+        "text": "预约",
+        "iconPath": "assets/icons/guide.png",
+        "selectedIconPath": "assets/icons/guide_active.png"
+      },
+      {
+        "pagePath": "pages/guide/guide",
+        "text": "向导",
+        "iconPath": "assets/icons/reserve.png",
+        "selectedIconPath": "assets/icons/reserve_active.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务",
+        "iconPath": "assets/icons/service.png",
+        "selectedIconPath": "assets/icons/service.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/icons/profile.png",
+        "selectedIconPath": "assets/icons/profile.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

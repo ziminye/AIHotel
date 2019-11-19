@@ -1,0 +1,4 @@
+/* pages/reserve/reserve.wxss */
+.check_in_time{
+  margin: auto
+}
